@@ -1,0 +1,215 @@
+read:https://msdn.microsoft.com/en-us/library/aa292164(v=vs.71).aspx
+Programming Languages
+microsoft.com | 
+programming language is a notation for writing programs, which are specifications of a computation or algorithm. Some, but not all, authors restrict the term "programming language" to those languages that can express all possible algorithms.
+Traits often considered important for what constitutes a programming language include
+
+
+Visual Studio .NET 2003 
+Choosing a programming language depends on your language experience and the scope of the application you are building. While small applications are often created using only one language, it is not uncommon to develop large applications using multiple languages.
+For example, if you are extending an application with existing XML Web services, you might use a scripting language with little or no programming effort. For client-server applications, you would probably choose the single language you are most comfortable with for the entire application. For new enterprise applications, where a large team of developers create components and services for deployment across multiple remote sites, the best choice might be to use several languages depending on developer skills and long-term maintenance expectations.
+The .NET Platform programming languages — including Visual Basic .NET, Visual C#, Managed Extensions for C++, and many other programming languages from various vendors — use .NET Framework services and features through a common set of unified classes. The .NET unified classes provide a consistent method of accessing the platform's functionality. If you learn to use the class library, you will find that all tasks follow the same uniform architecture. You no longer need to learn and master different API architectures to write your applications.
+In most situations, you can effectively use all of the Microsoft programming languages. Nevertheless, each programming language has its relative strengths and you will want to understand the features unique to each language. The following sections will help you choose the right programming language for your application.
+Visual Basic .NET
+Visual Basic .NET is the next generation of the Visual Basic language from Microsoft. With Visual Basic you can build .NET applications, including Web services and ASP.NET Web applications, quickly and easily. Applications made with Visual Basic are built on the services of the common language runtime and take advantage of the .NET Framework.
+Visual Basic has many new and improved features such as inheritance, interfaces, and overloading that make it a powerful object-oriented programming language. Other new language features include free threading and structured exception handling. Visual Basic fully integrates the .NET Framework and the common language runtime, which together provide language interoperability, garbage collection, enhanced security, and improved versioning support. Visual Basic supports single inheritance and creates Microsoft intermediate language (MSIL) as input to native code compilers.
+Visual Basic is comparatively easy to learn and use, and Visual Basic has become the programming language of choice for hundreds of thousands of developers over the past decade. An understanding of Visual Basic can be leveraged in a variety of ways, such as writing macros in Visual Studio and providing programmability in applications such as Microsoft Excel, Access, and Word.
+Visual Basic provides prototypes of some common project types, including: 
+•	Windows Application.
+•	Class Library.
+•	Windows Control Library.
+•	ASP.NET Web Application.
+•	ASP.NET Web Service.
+•	Web Control Library.
+•	Console Application.
+•	Windows Service.
+Visual C# .NET
+Visual C# (pronounced C sharp) is designed to be a fast and easy way to create .NET applications, including Web services and ASP.NET Web applications. Applications written in Visual C# are built on the services of the common language runtime and take full advantage of the .NET Framework.
+C# is a simple, elegant, type-safe, object-oriented language recently developed by Microsoft for building a wide range of applications. Anyone familiar with C and similar languages will find few problems in adapting to C#. C# is designed to bring rapid development to the C++ programmer without sacrificing the power and control that are a hallmark of C and C++. Because of this heritage, C# has a high degree of fidelity with C and C++, and developers familiar with these languages can quickly become productive in C#. C# provides intrinsic code trust mechanisms for a high level of security, garbage collection, and type safety. C# supports single inheritance and creates Microsoft intermediate language (MSIL) as input to native code compilers.
+C# is fully integrated with the .NET Framework and the common language runtime, which together provide language interoperability, garbage collection, enhanced security, and improved versioning support. C# simplifies and modernizes some of the more complex aspects of C and C++, notably namespaces, classes, enumerations, overloading, and structured exception handling. C# also eliminates C and C++ features such as macros, multiple inheritance, and virtual base classes. For current C++ developers, C# provides a powerful, high-productivity language alternative.
+Visual C# provides prototypes of some common project types, including: 
+•	Windows Application.
+•	Class Library.
+•	Windows Control Library.
+•	ASP.NET Web Application.
+•	ASP.NET Web Service.
+•	Web Control Library.
+•	Console Application.
+•	Windows Service.
+Visual C++ .NET
+Visual C++ .NET is the next generation of the Visual C++ language from Microsoft. Visual C++ has always been the best language for creating high-performance applications for Microsoft Windows and the World Wide Web.
+Visual C++ provides a number of important libraries to help you code applications, including Active Template Library (a set of template-based C++ classes for COM objects), ATL Server Library (a set of native C++ classes for creating Web applications, Web Services, and other server applications), and Microsoft Foundation Classes (a set of classes that support an application written for the Windows API).
+Visual C++ provides prototypes of some common project types, including: 
+•	Active Template Library (ATL) Project.
+•	ATL Server Project.
+•	ATL Server Web Service.
+•	Custom Wizard.
+•	Extended Stored Procedure DLL.
+•	Makefile Project.
+•	ASP.NET Web Service
+•	Class Library (.NET)
+•	Console Application (.NET)
+•	Windows Control Library (.NET)
+•	Windows Forms Application (.NET)
+•	Windows Service (.NET)
+•	Microsoft Foundation Classes (MFC) ActiveX Control.
+•	MFC Application.
+•	MFC DLL.
+•	MFC ISAPI Extension DLL.
+•	Win32 Project.
+Managed Extensions for C++
+If you are creating a new application or component, you can use your current knowledge of C++ to write managed code with Managed Extensions for C++. When using Managed Extensions, you get the benefits of the support and services provided by the common language runtime (such as memory management, cross-language integration, code access security, and automatic lifetime control of objects).
+Managed Extensions for C++ also provide a simple way to integrate existing applications into the .NET Framework. For example, maybe you need to port some unmanaged code to .NET. Because you already have previously compiled static, linked libraries, DLLs, and various unmanaged C++ classes, you can simply compile your existing Win32 code as a .NET application. Then, as time permits, you can re-engineer the components to take advantage of managed code features.
+Transact-SQL
+Transact-SQL is the native language for storing, modifying, and retrieving information in Microsoft SQL Server relational databases. You can also use Transact-SQL to create databases and any of the objects stored in a database, such as tables, columns, triggers, keys, indexes, views, stored procedures, and functions. Transact-SQL is fully supported in the Visual Studio editor and in the designers provided with Visual Database Tools.
+Note   Visual Database Tools can also connect to an Oracle database. When you are using an Oracle database, Visual Database Tools correctly handle Oracle-specific SQL syntax. For more information, see Oracle Databases.
+Scripting Languages
+As Internet-enabled applications have gained the technological spotlight, solutions to programming problems associated with distributed computing continue to be developed. Scripting languages, in general, are not new but some of the most useful ones are recent arrivals. With the new scripting languages you can easily run scripts on a local desktop or a remote console to handle administrative tasks and program events.
+Windows Script Host
+Windows Script Host (WSH) is a language-independent scripting environment for 32-bit Windows platforms. With WSH, Microsoft offers VBScript, JScript, and JScript .NET scripting engines. These scripting languages can be used in the ASP pages of a Web server, in HTML pages that run in Internet Explorer, and in Windows Script Host scripting engines on Windows 98 and Windows 2000.
+WSH can automate administrative tasks on a server, using any scripting language. For example, an administrator can write VBScript to create a new virtual directory and then, with WSH working in the background, run the script file from the command line to create a new virtual directory on the Web site. In addition, administrators can write a single script to target multiple Web sites or multiple physical servers.
+Third-party companies supply ActiveX scripting engines for other languages such as Perl, TCL, REXX, and Python.
+For more information, see Windows Script Host.
+
+VBScript
+Microsoft Visual Basic Scripting Edition (VBScript) is a subset of Microsoft Visual Basic — it will look very familiar to you if you have ever used Visual Basic. It is not identical, however. Because VBScript is specifically designed to work in Internet Explorer (IE) browsers, it does not include features that are normally outside the scope of scripting, such as file access and printing. However, it is common to use the FileSystem Object with VBScript to manipulate files.
+VBScript brings active scripting to a wide variety of environments, including Web client scripting in IE, and Web server scripting in Microsoft Internet Information Services (IIS), Microsoft Internet Security and Acceleration Server (ISA), and Sun Solaris. VBScript is a fast, portable, interpreted, object-based scripting language that processes source code embedded directly in HTML pages. You can use VBScript to add intelligence and interactivity to WSH, ASP, and HTML pages.
+Like JScript, VBScript talks to host applications using Windows Script. With Windows Script, browsers and other host applications do not require special integration code for each scripting component. Windows Script enables a host to compile scripts, obtain and call entry points, and manage the namespace available to the developer.
+VBScript is a loosely typed language. Loosely typed means you do not have to declare the data types of variables explicitly. In fact, you cannot explicitly declare data types in VBScript. Moreover, in many cases VBScript performs conversions automatically when needed. For instance, if you add a number to an item consisting of text (a string), the number is converted to text.
+For more information, see VBScript User's Guide. VBScript is provided with IE, IIS, and ISA, or you can download it from the Microsoft Windows Script Technologies Web site (http://msdn.microsoft.com/scripting/default.htm?/scripting/vbscript/default.htm).
+JScript
+Microsoft JScript is designed for Web page scripting. JScript conforms to the ECMA 262 language specification. JScript is a powerful scripting language specifically targeted at the Internet. Like VBScript, JScript is an interpreted, object-based scripting language that processes source code embedded directly in HTML pages. JScript runs on both Internet Explorer and Netscape browsers.
+Like VBScript, JScript talks to host applications using Windows Script Host. With Windows Script Host, browsers and other host applications do not require special integration code for each scripting component. Windows Script Host enables a host to compile scripts, obtain and call entry points, and manage the namespace available to the developer.
+JScript is a loosely typed language. Loosely typed means you do not have to declare the data types of variables explicitly. In fact, you cannot explicitly declare data types in JScript. Moreover, in many cases JScript performs conversions automatically when needed. For instance, if you add a number to an item consisting of text (a string), the number is converted to text.
+For more information, see JScript.
+JScript .NET
+JScript .NET is the next generation of Microsoft's implementation of the ECMA 262 language, developed in conjunction with ECMAScript Edition 4. It is designed to run within the common language runtime to manage the execution of code and provide services that make the development process easier. With JScript .NET you get features such as cross-language integration, cross-language exception handling, enhanced security, versioning and deployment support, a simplified model for component interaction, and debugging and profiling services.
+Combining the existing feature set of classic JScript (it is fully backward compatible) with the common language runtime and the best features of class-based languages, JScript .NET gives you the best of all worlds. Improvements in JScript .NET include true compiled code, typed and typeless variables, classes (with inheritance, function overloading, property accessors, and more), packages, cross-language support, and access to the .NET Framework.
+Extensible Markup Language (XML)
+XML provides a format for describing structured data that allows for precise declarations of content and useful search results across multiple platforms. XML defines information and data according to purpose rather than presentation so that several applications can use the information and data in ways that promote diverse application reuse and extensibility. XML is an increasingly important meta-markup language that is convenient for use on the Internet. 
+It is important to realize that the various members of Windows Server System support XML as a data exchange format. For example, the SQL XML feature of SQL Server 2000 makes it possible for .NET applications to get their database query results as XML documents instead of relational result sets. As an important technology in the .NET Platform, XML is enabling a new generation of client and provider Web-based services.
+XML is not a replacement for HTML. Although both are markup languages, they function in a complementary manner. The strength of HTML is in displaying information whereas XML is an excellent way to describe information. XML's strength lies partly in its ability to separate the user interface from data being displayed, thus allowing the cross-platform performance noted earlier.
+In distributed application architecture, XML messaging allows data to easily move through firewalls and between heterogeneous systems using standard transport mechanisms. Whatever your application requires — importing, exporting, data interchange, interoperability with other applications (such as Office 2000 or Exchange 2000), parsing, modifying, data access, data storage — XML is an easily used data exchange format. Visual Studio .NET provides some great tools for working with XML and your favorite programming language.
+For more information, see XML in Visual Studio.
+Visual J++
+Microsoft provides the Java User Migration Path to Microsoft .NET (JUMP to .NET) as a set of technologies and services that enable programmers to preserve, enhance, and migrate Java language projects onto the Microsoft .NET Platform. With JUMP to .NET you can continue to take advantage of existing Visual J++ skills and source code while extending your application and components onto the .NET Platform. If you are familiar with the Visual J++ language, you can use it to create new .NET applications or easily migrate existing code to the new C# language using automated migration tools. 
+Alternative Languages
+Microsoft partners with many companies to bring their languages to the .NET Platform. In addition to the languages provided by Microsoft, there are many alternative languages that target the .NET Platform, including: 
+•	COBOL for Microsoft .NET.
+•	Perl for Microsoft .NET.
+•	Eiffel for Microsoft .NET.
+•	Python for Microsoft .NET.
+•	Pascal for Microsoft .NET.
+•	Mercury for Microsoft .NET.
+•	Mondrian for Microsoft .NET.
+•	Oberon for Microsoft .NET.
+•	Salford FTN95 (Fortran) for Microsoft .NET.
+•	SmallTalk for Microsoft .NET.
+•	Standard ML for Microsoft .NET.
+•	Dyalog APL for Microsoft .NET.
+
+
+
+Framework contact .NET is:The Microsoft .NET Compact Framework (.NET CF) is a version of the .NET Framework that is designed to run on resource constrained mobile/embedded devices such as personal digital assistants (PDAs), mobile phones, factory controllers, set-top boxes, etc. The .NET Compact Framework uses some of the same class libraries as the full .NET Framework and also a few libraries designed specifically for mobile devices such as .NET Compact Framework controls. However, the libraries are not exact copies of the .NET Framework; they are scaled down to use less space.
+
+
+
+c++ compilers are:
+List of C++ compilers
+
+
+Some compilers that can be downloaded for free (do check their conditions/licenses before attempting commercial use): 
+
+Apple C++. It also comes with OS X on the developer tools CD. 
+
+Bloodshed Dev-C++. A GCC-based (Mingw) IDE. 
+
+Borland C++ 
+
+Cygwin (GNU C++) 
+
+Digital Mars C++ 
+
+MINGW - "Minimalist GNU for Windows". Another GCC version for 
+Windows including a free (non-GPL) w32api. 
+
+DJ Delorie's C++ development system for DOS/Windows (GNU C++) 
+
+GNU CC source 
+
+IBM C++ for IBM power, System Z, Bluegene, and Cell. 
+
+Intel C++ for linux 
+
+The LLVM Compiler Infrastructure (based on GCC). 
+
+Microsoft Visual C++ 2008 Express edition. 
+Sun Studio. 
+
+
+
+
+
+Compilers that require payment (some allow free downloads for trial periods): 
+
+
+Borland C++ 
+
+CodeWarrior C++ (formerly Metrowerks), it comes for many platforms. 
+Comeau C++ for many platforms 
+Edison Design Group C++ Front End - used by many C++ compiler suppliers 
+Green Hills C++ for many embedded systems platforms 
+HP C++ for Unix and HP C++ for OpenVMS. 
+
+Intel C++ for Windows, Linux, and some embedded systems. 
+
+Mentor Graphics/Microtec Research C++ for many embedded systems platforms 
+
+Microsoft C++ 
+Paradigm C++, for x86 embedded systems 
+The Portland Group C++ (parallization for Pentiums) 
+SGI C++, optimizing compiler 
+Sun C++ 
+WindRiver's Diab C++ used in many embedded systems. 
+
+
+The differences between the compilers for c++:
+
+The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Java, Ada, and Go, as well as libraries for these languages.
+GCC was originally written as the compiler for the GNU operating system.
+The GNU system was developed to be 100% free software, free in the sense that it respects the user's freedom.
+
+
+
+
+GCC 5 C++14 language feature-complete [2014-12-23]
+Support for all C++14 language features has been added to the development sources for GCC, and will be available when GCC 5 is released next year. Contributed by Jason Merrill, Braden Obrzut, Adam Butcher, Edward Smith-Rowland, and Jakub Jelinek.
+GCC 4.8.4 released [2014-12-19]
+JIT support in GCC: libgccjit [2014-11-11]
+GCC can now be built as a shared library, and embedded inside interpreters and other language runtimes, for Just-In-Time generation of machine code. Contributed by David Malcolm (Red Hat).
+
+GCC 4.9.2 released [2014-10-30]
+Cilk Plus support in GCC [2014-09-02]
+Complete support for Cilk Plus features was added to GCC. Contributed by Jakub Jelinek, Aldy Hernandez, Balaji V. Iyer and Igor Zamyatin.
+New GCC version numbering scheme announced [2014-08-13]
+
+	OpenMP v4.0 [2014-06-30]
+An implementation of the OpenMP v4.0 parallel programming interface for Fortran has been added and is going to be available in the upcoming GCC 4.9.1 release.
+
+GCC 4.7.4 released [2014-06-12]
+
+ACM SIGPLAN Programming Languages Software Award [2014-06-10]
+
+GCC 4.8.3 released [2014-05-22]
+
+GCC 4.9.0 released [2014-04-22]
+
+GCC Google Summer of Code 2014 [2014-02-24]
+GCC has been accepted as a Google Summer of Code 2014 project. Students, mentors and project ideas welcome!
+
+Intel AVX-512 support [2014-02-17]
+Intel AVX-512 support was added to GCC. That includes inline assembly support, new registers and extending existing ones, new intrinsics, and basic autovectorization.
+
+
+
+
